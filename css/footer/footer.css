@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+.footer-bg{
+	background:#F0EBBA;
+	display: flex;
+	justify-content: center;
+	height: 350px;
+}
+
+.container-footer{
+	width: 1160px;
+	/*background: #A91AE8;*/
+	/*border: 1px solid #1613E9;*/
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 20px;
+	
+}
+
+.item-footer{
+	/*border: 1px solid #313DC1;*/
+	padding: 20px;
+}
+
+.item-footer img{
+	width: 40%;
+	padding: 20px;
+	
+}
+
+
+.item-footer li{
+	
+	margin-bottom: 10px;
+}
+
+
+.footer-redes{
+	padding: 20px;
+}
+
+
+.footer-redes img{
+	
+	padding: 10px 20px 10px 0px;
+	
+}
+
+
+.footer-copy{
+	
+	grid-column: 1/-1;
+	margin:40px;
+}
+
+
+
+	
+	@media (max-width: 414px){
+	
+	
+	.footer-redes{
+		padding: 5px 10px 5px 50px;
+}
+		
+	.item-footer{
+		/*border: 1px solid #313DC1;*/
+		padding: 5px 10px 5px 50px;
+}
+
+	.container-footer{
+		grid-template-columns: 1fr;
+		gap: 10px;
+		padding: 5px;
+	}
+	
+	.footer-bg{
+			height: 600px;
+		}
+	
+	.footer-copy{
+	
+			grid-column: 1/-1;
+			
+			
+}
+		
+	.item-footer img{
+			padding: 5px;
+	
+}
+
+	
+}
+
+
+
+
+/* Captura de cookies formatação --------------------------------------------- */
+.popup {
+  position: fixed; /* Fixa o elemento na tela, independente do scroll */
+  bottom: 20px;     /* Distância de 20px da parte inferior da tela */
+  left: 20px;       /* Distância de 20px da borda esquerda */
+  right: 20px;      /* Distância de 20px da borda direita */
+  background-color: #f8f8f8; /* Cor de fundo clara para o popup */
+  border: 1px solid #ccc;    /* Borda cinza clara */
+  padding: 15px;             /* Espaçamento interno de 15px */
+  text-align: center;        /* Centraliza o texto dentro do popup */
+  box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Sombra suave ao redor do popup */
+  font-family: Arial, sans-serif;      /* Fonte usada no texto */
+  display: none; /* começa escondido, será exibido via JavaScript */
+  color: #413104; /* Cor do texto, marrom escuro */
+}
+
+.popup button {
+  margin-top: 10px;           /* Espaço acima do botão */
+  padding: 8px 16px;          /* Espaçamento interno do botão */
+  background-color: #e0ab18;  /* Cor de fundo dourada */
+  color: white;               /* Cor do texto do botão */
+  border: none;               /* Remove a borda padrão */
+  cursor: pointer;            /* Muda o cursor para indicar que é clicável */
+}
+
+
